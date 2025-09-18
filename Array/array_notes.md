@@ -165,10 +165,10 @@ syntax:
 ---
 
 tdlr:
-    - An array is collection of data of same data type, stored at a contiguous memory location.
-    - Index starts from zero of an array.
-    - Elements can be accessed using their indexes
-    - Once array declared its size remains as constant. size cannot be changed after declaration
-    - An array have multiple dimensions
-    - The size of the array in bytes can be determined by the sizeof operator using which we can also find the number of elements in the array.
-    - We can find the size of the type of elements stored in an array by subtracting adjacent addresses.
+- An array is collection of data of same data type, stored at a contiguous memory location.
+- Index starts from zero of an array.
+- Elements can be accessed using their indexes
+- Once array declared its size remains as constant. size cannot be changed after declaration
+- An array have multiple dimensions
+- The size of the array in bytes can be determined by the sizeof operator using which we can also find the number of elements in the array.
+- We can find the size of the type of elements stored in an array by subtracting adjacent addresses.
