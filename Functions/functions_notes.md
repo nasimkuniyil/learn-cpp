@@ -6,12 +6,14 @@ They make code **reusable, readable, and modular**.
 ---
 
 ## 1. Types of Functions
+
 1. **Built-in Functions** → Already provided (e.g., `sqrt()`, `pow()`).  
 2. **User-defined Functions** → Created by the programmer.  
 
 ---
 
 Syntax:
+
 ```cpp
 returnType functionName(parameters) {
     // function body
@@ -20,6 +22,7 @@ returnType functionName(parameters) {
 ```
 
 Example:
+
 ```cpp
 int add(int a, int b) {
     return a + b;
@@ -29,6 +32,7 @@ int add(int a, int b) {
 3. Function Declaration, Definition, and Call
 
 Declaration
+
 ```cpp
 int add(int, int);
 
@@ -40,6 +44,7 @@ int add(int x, int y) {
 ```
 
 Call
+
 ```cpp
 int result = add(5, 3);
 ```
@@ -47,7 +52,7 @@ int result = add(5, 3);
 4. Return Types
     void → no value returned
     Other types (int, float, etc.) → return value
-    
+
 ```cpp
 void greet() {
     cout << "Hello";
@@ -57,17 +62,20 @@ void greet() {
 5. Parameter Types
 Pass by Value
 Copy is passed, original unchanged.
+
 ```cpp
 void fun(int x) { x = 10; }
 ```
 
 Pass by Reference
 Original is affected.
+
 ```cpp
 void fun(int &x) { x = 10; }
 ```
 
 Default Parameters
+
 ```cpp
 int add(int a, int b = 5) {
     return a + b;
@@ -76,6 +84,7 @@ int add(int a, int b = 5) {
 
 6. Function Overloading
 Same function name, different parameters.
+
 ```cpp
 int add(int a, int b) { return a + b; }
 double add(double a, double b) { return a + b; }
@@ -83,6 +92,7 @@ double add(double a, double b) { return a + b; }
 
 7. Inline Functions
 Suggest compiler to expand function inline.
+
 ```cpp
 inline int square(int x) { return x * x; }
 ```
@@ -90,12 +100,15 @@ inline int square(int x) { return x * x; }
 8. Lambda Functions (C++11+)
 A lambda function is an anonymous function (no name) defined with [].
 Syntax:
+
 ```cpp
 [capture](parameters) -> returnType {
     // body
 };
 ```
+
 Example:
+
 ```cpp
 auto add = [](int a, int b) {
     return a + b;
@@ -111,6 +124,7 @@ Capture List:
     [&x] → captures x by reference
 
 Example:
+
 ```cpp
 int a = 10, b = 20;
 

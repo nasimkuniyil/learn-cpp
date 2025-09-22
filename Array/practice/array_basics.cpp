@@ -44,6 +44,7 @@ class PracticeArray {
 
 int main() {
   int arr[] = {54, 43, 2, 1, 5};
+  cout << "hey" << endl;
   PracticeArray pa;
   //   pa.likePointer();
   pa.printReverse(arr, 5);
